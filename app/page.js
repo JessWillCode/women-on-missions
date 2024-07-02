@@ -1,4 +1,7 @@
 import About from "./about/page";
+import Missions from "./missions/page";
+import Volunteer from "./volunteer/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (
@@ -20,13 +23,13 @@ export default function Home() {
         <About />
       </section>
       <section id="missions">
-        <h1> Our recent Missions</h1>
+        <Missions />
       </section>
       <section id="volunteer">
-        <h1> Want to get Involved?</h1>
+        <Volunteer />
       </section>
       <section id="Contact us">
-        <h1> Get in Touch!</h1>
+        <Contact />
       </section>
     </main>
   );
