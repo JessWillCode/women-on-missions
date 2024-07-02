@@ -1,4 +1,4 @@
-import Image from "next/image";
+import About from "./about/page";
 
 export default function Home() {
   return (
@@ -17,10 +17,7 @@ export default function Home() {
         </div>
       </section>
       <section id="about">
-        <h1> Who are we?</h1>
-      </section>
-      <section id="about">
-        <h1> Who are we?</h1>
+        <About />
       </section>
       <section id="missions">
         <h1> Our recent Missions</h1>
